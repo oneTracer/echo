@@ -1,16 +1,16 @@
 <template>
   <div class="demo-main">
-    <h1>右边组件</h1>
+    <h1>中间组件</h1>
   </div>
 </template>
 <script>
 export default {
-  name: 'demo-component-right'
+  name: 'demo-component-left'
 }
 </script>
 <style lang="less" scoped>
 .demo-main {
-  width: 600px;
+  width: 340px;
   height: 500px;
   border: 1px solid salmon;
 }

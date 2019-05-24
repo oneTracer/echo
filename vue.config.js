@@ -1,16 +1,16 @@
 module.exports = {
   // publicPath: process.env.NODE_ENV === "production" ? "//your_url" : "/",
-  publicPath: "/",
-  outputDir: "dist",
-  assetsDir: "static",
+  publicPath: '/',
+  outputDir: 'dist',
+  assetsDir: 'static',
   filenameHashing: true,
   pages: {
     index: {
       // entry for the pages
-      entry: "src/main.js",
-      template: "public/index.html",
-      filename: "index.html",
-      title: "首页"
+      entry: 'src/main.js',
+      template: 'public/index.html',
+      filename: 'index.html',
+      title: '首页'
     }
   },
   lintOnSave: true,
@@ -40,7 +40,7 @@ module.exports = {
 
   devServer: {
     open: true,
-    host: "127.0.0.1",
+    host: '127.0.0.1',
     port: 3000,
     https: false,
     hot: true,
@@ -54,7 +54,7 @@ module.exports = {
     // }
   },
   // 构建时开启多进程处理 babel 编译
-  parallel: require("os").cpus().length > 1,
+  parallel: require('os').cpus().length > 1,
   // 第三方插件配置
   pluginOptions: {}
 };
